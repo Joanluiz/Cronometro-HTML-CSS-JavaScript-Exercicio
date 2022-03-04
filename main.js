@@ -1,5 +1,5 @@
 function relogio() {
-    function criaHoraDosSegundos(segundos) {
+    function horasESegundos(segundos) {
         const data = new Date(segundos * 1000);
         return data.toLocaleTimeString('pt-BR', {
             hour12: false,
@@ -17,7 +17,7 @@ function relogio() {
     function iniciaRelogio() {
         timer = setInterval(function() {
             segundos++;
-            relogio.innerHTML = criaHoraDosSegundos (segundos);
+            relogio.innerHTML = horasESegundos (segundos);
         }, 1000);
     }
     
