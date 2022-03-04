@@ -1,0 +1,82 @@
+/*Fonte usada: Smooch Sans*/
+@import url('https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@400;500&family=Work+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: cadetblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: rgb(224, 219, 219);
+    padding: 40px;
+    border-radius: 20px;
+}
+
+.container h1 {
+    text-transform: uppercase;
+    font-family: 'Smooch Sans', sans-serif;
+    font-size: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+ /*Classe do contador */
+.relogio {
+    display: flex;
+    font-size: 50px;
+    font-family: 'Smooch Sans', sans-serif;
+    font-weight: 500;
+    color: rgb(35, 39, 38);
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.iniciar {
+    text-transform: uppercase;
+    padding: 10px;
+    margin: 5px;
+    background-color: cadetblue;
+    color: white;
+    border-radius: 10px;
+    border: white;
+    cursor: pointer;
+}
+
+.pausar {
+    text-transform: uppercase;
+    padding: 10px;
+    margin: 5px;
+    background-color: cadetblue;
+    color: white;
+    border-radius: 10px;
+    border: white;
+    cursor: pointer;
+}
+
+.zerar {
+    text-transform: uppercase;
+    padding: 10px;
+    margin: 5px;
+    background-color: cadetblue;
+    color: white;
+    border-radius: 10px;
+    border: white;
+    cursor: pointer;
+}
+
+/* Classe criada para o contador ficar vermelho quando o botão PAUSAR for acionado*/
+.pausado {
+    color: red;
+}
