@@ -78,5 +78,5 @@ body {
 
 /* Classe criada para o contador ficar vermelho quando o botão PAUSAR for acionado*/
 .pausado {
-    color: red;
+    color: rgb(236, 12, 12);
 }
